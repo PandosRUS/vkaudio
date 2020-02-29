@@ -1,4 +1,19 @@
 # vkaudio
+## Необходимая структура
+```
+simple
+├── audio // Директория для скачанных аудиозаписей
+├── cache
+│   └── cookies.txt // Кеш авторизаций
+├── classes
+│   ├── AuthVK.php
+│   ├── GetUrlAudio.php
+│   ├── LoadAudio.php
+│   ├── PostVK.php
+│   └── SearchAudios.php
+├── API.php
+└── config.php
+```
 ## Поиск в общем списке
 GET запрос:
 ```
@@ -23,3 +38,8 @@ GET запрос:
 ]
 ```
 ## Сохранение аудио на сервер
+GET запрос:
+```
+/API.php?method=search&text=`поисковой_запрос`
+```
+Ответ
