@@ -1,6 +1,6 @@
 # vkaudio
 ## Необходимая структура
-```htaccess
+```python
 public_html
 ├── audio #// Директория для скачанных аудиозаписей
 ├── cache
