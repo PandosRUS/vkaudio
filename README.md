@@ -2,10 +2,10 @@
 ## Поиск в общем списке
 GET запрос:
 ```
-/API.php?method=**search**&text=`поисковой_запрос`
+/API.php?method=search&text=`поисковой_запрос`
 ```
 Ответ
-```
+```json
 [
     'success',
     [
