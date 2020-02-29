@@ -65,6 +65,25 @@ GET запрос:
 Ответ
 ```js
 [
+    'start'
+]
+```
+***
+GET запрос:
+```
+/API.php?method=load&type=check&hash=`хеш_аудио`
+```
+> Cтатус скачивания аудио
+
+Ответ
+```js
+[
+    'waiting'
+]
+```
+```js
+[
+    'ready',
     'http://example.com/audio/temp.mp3'
 ]
 ```
